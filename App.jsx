@@ -1,4 +1,5 @@
-import Market from './pages/market/Market.jsx';
+import React from 'react';
+import Market from './src/pages/market/Market.jsx';
 import { register } from 'swiper/element/bundle';
 
 const App = () => {

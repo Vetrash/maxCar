@@ -1,3 +1,4 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 import loader from './style/loader.module.css';
 import cn from 'classnames';

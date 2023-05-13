@@ -1,9 +1,9 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 import classes from './style/Cart.module.css';
 import classesBtn from './style/Btn.module.css';
 import cn from 'classnames';
 import { useState } from 'react';
-import heart from '@/img/heart.svg'
 
 import 'swiper/swiper.css'; // core Swiper
 const Cart = (props) => {
@@ -167,11 +167,12 @@ const Cart = (props) => {
     const hiddenHeart = type === 'S' && !hover ? classes.hidden : '';
     const status = hover ? 'open' : 'close';
     const sizeBtn = classesBtn[`size_btn_${type}_${status}`];
+    
     return (
       <div className={conteinerClass}>
         <img
           className={cn(classesBtn.heart, heartHover, hiddenHeart)}
-          src="./src/img/heart.svg"
+          src={'/assets/img/heart.svg'}
           alt="heart"
         />
         <button className={cn(classesBtn.btn_pay, sizeBtn, classPreOrder)}>
