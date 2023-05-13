@@ -1,0 +1,40 @@
+.marketDesk_row {
+  display: flex;
+  width: 90vw;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  row-gap: 26px;
+  column-gap: 31px;
+  margin: auto;
+  justify-content: center;
+  padding: 30px 30px 50px 30px;
+}
+
+.marketDesk_col {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: start;
+  row-gap: 26px;
+  column-gap: 31px;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 410px) {
+  .marketDesk_row {
+    padding: 30px 0px 50px 0px;
+  }
+  .marketDesk_col {
+    row-gap: 80px;
+  }
+}

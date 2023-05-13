@@ -1,0 +1,28 @@
+.dropdownClass {
+  width: 276px;
+  text-align: left;
+  font: normal normal normal 16px/24px Roboto;
+}
+
+.placeholderClass {
+  text-align: left;
+  font: normal normal normal 16px/24px Roboto;
+  color: #ffffffde;
+}
+
+.controlClass {
+  width: 276px;
+  background-color: #35373a;
+  border-radius: 4px 4px 0px 0px;
+  text-align: left;
+  font: normal normal normal 16px/24px Roboto;
+  color: #ffffffde;
+  display: flex;
+  align-items: center;
+}
+
+.menuClass {
+  width: 276px;
+  text-align: left;
+  font: normal normal normal 16px/24px Roboto;
+}

@@ -1,0 +1,259 @@
+.cart_container {
+  min-width: 300px;
+  min-height: 236px;
+  height: min-content;
+  width: 404px;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 6px 32px #0e2a6029;
+  border-radius: 8px;
+  position: relative;
+  cursor: pointer;
+}
+
+.cart_padding {
+  padding: 27px;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aligmen_start {
+  align-items: start;
+}
+
+.size_S {
+  height: 543px;
+  max-height: 543px;
+}
+
+.size_M {
+  height: 543px;
+  max-height: 543px;
+}
+
+.size_L {
+  height: 604px;
+  max-height: 604px;
+}
+
+.dempfer {
+  height: 0px;
+  transition: 1s;
+}
+
+.dempfer_S_open {
+  height: 37px;
+}
+
+.dempfer_S_close {
+  height: 0px;
+}
+
+.dempfer_M_open {
+  height: 37px;
+}
+
+.dempfer_M_close {
+  height: 0px;
+}
+
+.dempfer_L_open {
+  height: 37px;
+}
+
+.dempfer_L_close {
+  height: 16px;
+}
+
+.feature__dempferSize {
+  height: 51px;
+}
+
+.car_image {
+  display: block;
+  object-fit: cover;
+  width: 264px;
+  height: 198px;
+  border-radius: 4px;
+}
+
+.features {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 auto;
+  gap: 30px;
+  position: relative;
+}
+
+.features_col {
+  gap: 0px;
+}
+
+.features_move {
+  transform: translate3d(-145px, 52px, 0px);
+}
+
+.feature_title {
+  text-align: left;
+  font: normal normal normal 10px Roboto;
+  letter-spacing: 1px;
+  color: #acb8bf;
+  text-transform: uppercase;
+  margin: 0px;
+  white-space: nowrap;
+}
+
+.feature_container {
+  padding-top: 16px;
+}
+
+.feature_animate {
+  transition: transform 0.8s ease-in-out;
+}
+
+.features > div:first-child {
+  width: 146px;
+}
+
+.features > div > div:first-child {
+  padding-top: 0px;
+}
+
+.feature_text {
+  text-align: left;
+  font: normal normal normal 14px Roboto;
+  letter-spacing: 0px;
+  opacity: 1;
+  padding-top: 6px;
+  color: black;
+  white-space: nowrap;
+}
+
+.info_block {
+  padding-top: 34px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.text_right {
+  text-align: right;
+}
+
+.text_overflow {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.price {
+  font: normal normal normal 28px/28px Roboto;
+  letter-spacing: 0px;
+  white-space: nowrap;
+}
+
+.price_pos {
+  position: absolute;
+  right: 26px;
+}
+
+.price_padding {
+  padding-top: 39px;
+}
+
+.selection_color {
+  color: #22bf86;
+}
+
+.minPrise {
+  font: normal normal normal 14px Roboto;
+  letter-spacing: 0px;
+  padding-top: 6px;
+}
+.price > span {
+  font: normal normal normal 28px/28px Roboto;
+  letter-spacing: 0px;
+  color: #303030;
+  padding-left: 7px;
+  padding-top: 16px;
+}
+
+.vin {
+  font: normal normal normal 10px/13px Roboto;
+  letter-spacing: 1px;
+  color: #707b8c;
+  padding-top: 6px;
+  text-align: left;
+  padding-bottom: 19px;
+}
+
+.model_container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.model_name {
+  text-align: left;
+  font: normal normal normal 18px/28px Roboto;
+  letter-spacing: 0px;
+  color: #303030;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  flex: 1 1 auto;
+}
+
+.year {
+  text-align: left;
+  font: normal normal normal 14px Roboto;
+  letter-spacing: 0px;
+  padding-left: 6px;
+}
+
+.hidden {
+  display: none;
+}
+
+.flex {
+  display: flex;
+}
+
+@media (max-width: 410px) {
+  .cart_container {
+    width: 320px;
+  }
+
+  .cart_padding {
+    padding: 27px 5px 27px 5px;
+  }
+
+  .car_image {
+    display: block;
+    object-fit: cover;
+    width: 204px;
+    height: 153px;
+    border-radius: 4px;
+  }
+
+  .dempfer_S_close {
+    height: 30px;
+  }
+
+  .dempfer_M_close {
+    height: 60px;
+  }
+
+  .dempfer_L_close {
+    height: 66px;
+  }
+
+  .features > div > div:first-child {
+    padding-top: 40px;
+  }
+}

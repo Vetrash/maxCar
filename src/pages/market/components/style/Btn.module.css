@@ -1,0 +1,77 @@
+.btn_pay {
+	width: 182px;
+	height: 48px;
+	background: transparent linear-gradient(255deg, #11998e 0%, #38ef7d 100%) 0% 0% no-repeat padding-box;
+	border-radius: 8px;
+	border: none;
+	cursor: pointer;
+	z-index: 10;
+	position: relative;
+	transition: 1s;
+}
+.btn_pay_container {
+	position: absolute;
+	right: 26px;
+	bottom: 36px;
+}
+
+.btn_pay_container_S {
+	position: absolute;
+	left: 31px;
+	bottom: 34px;
+}
+.btn_pay_text {
+	text-align: center;
+	font: normal normal 500 10px Roboto;
+	letter-spacing: 2px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.preOrder {
+	background: #e7ebf0 0% 0% no-repeat padding-box;
+}
+.preOrder > span {
+	color: #707b8c;
+}
+.heart {
+	position: absolute;
+	width: 30px;
+	height: 32px;
+	top: 0px;
+	bottom: 0px;
+	margin: auto;
+	z-index: 5;
+	transition: 1s;
+}
+
+.heart_inactive {
+	left: 5px;
+}
+.heart_active {
+	left: -38px;
+}
+
+.size_btn_S_open {
+	width: 164px;
+	height: 48px;
+}
+.size_btn_S_close {
+	width: 182px;
+	height: 48px;
+}
+.size_btn_M_open {
+	width: 182px;
+	height: 48px;
+}
+.size_btn_M_close {
+	width: 164px;
+	height: 48px;
+}
+.size_btn_L_open {
+	width: 164px;
+	height: 48px;
+}
+.size_btn_L_close {
+	width: 145px;
+	height: 48px;
+}
